@@ -64,7 +64,3 @@ int main (void){
 	fclose(ul);
 	return 0;
 }
-
-// guessed: bfawnyoqdzrpgslemtkj -> wrong
-// guessed: bvhfawnyoqudrgslemtkj -> wrong
-// guessed: bvnfawcnyoeyudzrpgslimtkj -> CORRECT
