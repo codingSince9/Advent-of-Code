@@ -38,27 +38,7 @@ int main (void){
 		}
 	}
 	
-	//not working yet
-	/*
-	for(k=0; k<strlen(str[i]); ++k){
-		if(str[minI][k]!=str[minJ][k]){
-			diffLetter[k]++;
-		}
-	}
-	
-	for(k=0; k<strlen(str[i]); ++k){
-		if(diffLetter[k]!=0){
-			for(j=0; j<strlen(str[i]); ++j){
-				if(k==j){
-					for(i=j; i<strlen(str[i]); ++i){
-						str[minI][i]=str[minI][i+1];
-					}
-				}
-			}
-		}
-	}
-	*/
-	
+	//printing 2 strings with lowest count of different letters
 	printf("%s\n", str[minI]);
 	printf("%s\n", str[minJ]);
 	fclose(ul);
