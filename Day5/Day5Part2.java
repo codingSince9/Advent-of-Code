@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Day5Part2 {
 	
 	/**
-	 * 
 	 * @param
 	 * @return length of the shortest string
 	 */
